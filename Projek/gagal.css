@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color: #fff;
+  --bg-color: rgb(5, 9, 31);
+  --main-color: rgb(3, 119, 227);
+  --other-color: #b5b9bf;
+}
+/* HEADER */
+/* header > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  width: 100%;
+  height: 60px;
+  background-image: url(/Gambar/1.jpg);
+} */
+/* HEADER END */
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  /* background-color: rgb(12, 24, 87); */
+  color: var(--text-color);
+  background-image: url(/Gambar/1.jpg);
+}
+nav > .provinsi {
+  list-style-type: none;
+  padding-left: 20px;
+}
+.provinsi > li > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-color);
+  transition: all 0.5s ease;
+}
+.provinsi :hover {
+  color: goldenrod;
+}
+nav > .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 30px;
+}
+.navbar > li {
+  padding-left: 40px;
+  text-decoration: none;
+}
+.navbar > li > a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 0.5s ease;
+  font-size: 20px;
+}
+.navbar :hover {
+  color: goldenrod;
+}
+/* NAVBAR END */
+
+/* MAIN */
+.bio {
+  background-image: url(/Gambar/1.jpg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 550px;
+  background-color: var(--bg-color);
+}
+.bio > img {
+  width: 550px;
+  height: 250px;
+  padding-left: 150px;
+}
+.text {
+  height: 550px;
+  padding: 100px;
+  color: var(--text-color);
+}
+.text > h1 {
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.text > p {
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+img {
+  vertical-align: middle;
+}
+/* MAIN END*/
+
+/* WISATA */
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: var(--bg-color);
+}
+.wisata {
+  background-color: var(--bg-color);
+}
+.wisata > h2 {
+  background-color: rgb(41, 41, 67);
+  color: var(--text-color);
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: #474444;
+  color: black;
+}
+
+/* BAWAH MAIN */
+.bawah-main {
+  display: flex;
+  background-color: var(--bg-color);
+  padding-top: 20px;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: var(--bg-color);
+}
+.previous {
+  background-color: aliceblue;
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+.next {
+  background-color: aliceblue;
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+.round {
+  border-radius: 50%;
+}
+.aside {
+  width: 30%;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(0, 121, 79);
+  margin: 0px 30px 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* BAWAH MAIN */
+
+/* footer */
+footer {
+  background-color: chocolate;
+  height: 100px;
+}
+footer > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  font-size: 30px;
+}
+/* footer */
+
+/* new 2 */
+.ftco-section {
+  padding: 4em 0;
+  position: relative;
+}
+@media (max-width: 767.98px) {
+  .ftco-section {
+    padding: 4em 0;
+  }
+}
+@media (min-width: 768px) {
+  .ftco-section .container-fluid {
+    padding: 0 4em;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about-image {
+    height: 400px;
+    margin-bottom: 30px;
+  }
+}
+
+.ftco-section {
+  padding: 6em 0;
+  position: relative;
+}
+@media (max-width: 767.98px) {
+  .ftco-section {
+    padding: 6em 0;
+  }
+}
+@media (min-width: 768px) {
+  .ftco-section .container-fluid {
+    padding: 0 4em;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-image: url(/Gambar/1.jpg);
+}
